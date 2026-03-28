@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Deep Flow - A wellness breathing app">
+    <meta name="author" content="Sarvesh Chandra Pujari">
+    <title>Privacy Policy - Deep Flow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #8b5cf6;
+            --dark-bg: #0f172a;
+            --light-bg: #f8fafc;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --accent-color: #10b981;
+            --warning-color: #f59e0b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .app-name {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 15px;
+        }
+
+        .header .last-updated {
+            font-size: 0.95em;
+            opacity: 0.85;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .toc {
+            background: var(--light-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .toc h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .toc ul {
+            list-style: none;
+        }
+
+        .toc li {
+            margin: 10px 0;
+        }
+
+        .toc a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .toc a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 45px;
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .section h3 {
+            color: var(--text-dark);
+            font-size: 1.2em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        .section ul, .section ol {
+            margin: 15px 0 15px 30px;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            color: var(--text-dark);
+        }
+
+        .highlight-box {
+            background: #fef3c7;
+            border-left: 4px solid var(--warning-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+            color: #92400e;
+        }
+
+        .info-box {
+            background: #dbeafe;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+            color: #1e3a8a;
+        }
+
+        .success-box {
+            background: #dcfce7;
+            border-left: 4px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+            color: #166534;
+        }
+
+        .checkmark {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        tr:hover {
+            background: var(--light-bg);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .cross {
+            color: #dc2626;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .legal-text {
+            font-size: 0.95em;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        code {
+            background: var(--light-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #d946ef;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+            padding: 25px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .contact-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .contact-card a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .contact-card a:hover {
+            color: var(--secondary-color);
+        }
+
+        .footer {
+            background: var(--dark-bg);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .footer p {
+            margin: 8px 0;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            pointer-events: none;
+            font-size: 1.5em;
+            border: none;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .scroll-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .scroll-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.4em;
+            }
+
+            .section h3 {
+                font-size: 1.1em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            td, th {
+                padding: 10px;
+            }
+
+            .scroll-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 1.2em;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .scroll-to-top {
+                display: none;
+            }
+
+            .toc {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <h2 class="app-name">Deep Flow - Wellness Breathing App</h2>
+            <p class="last-updated"><strong>Last Updated:</strong> February 2025</p>
+        </div>
+
+        <div class="content">
+            <!-- Table of Contents -->
+            <div class="toc">
+                <h2>📋 Table of Contents</h2>
+                <ul>
+                    <li><a href="#overview">1. Overview</a></li>
+                    <li><a href="#data-collect">2. Data We Collect</a></li>
+                    <li><a href="#data-not-collect">3. Data We Do NOT Collect</a></li>
+                    <li><a href="#data-use">4. How We Use Your Data</a></li>
+                    <li><a href="#retention">5. Data Retention & Deletion</a></li>
+                    <li><a href="#security">6. Data Security</a></li>
+                    <li><a href="#third-party">7. Third-Party Services</a></li>
+                    <li><a href="#children">8. Children's Privacy</a></li>
+                    <li><a href="#ccpa">9. California Privacy Rights</a></li>
+                    <li><a href="#international">10. International Users</a></li>
+                    <li><a href="#updates">11. Updates to This Policy</a></li>
+                    <li><a href="#contact">12. Contact & Support</a></li>
+                    <li><a href="#summary">13. Summary of Key Points</a></li>
+                    <li><a href="#appendix">14. Appendix: Technical Details</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 1: Overview -->
+            <div class="section" id="overview">
+                <h2>1. Overview</h2>
+                <p>Deep Flow is a wellness breathing app designed to help users practice mindfulness and breathing techniques. We are committed to protecting your privacy and ensuring you have a positive experience on our app.</p>
+                
+                <div class="highlight-box">
+                    <strong>🚨 Important Notice:</strong> Deep Flow is <strong>NOT a medical device</strong>. It is designed as a wellness and educational tool to support healthy breathing practices. It does not diagnose, treat, cure, or prevent any medical condition. Always consult a healthcare professional for medical advice.
+                </div>
+
+                <p>
+                    <strong>Developer:</strong> Sarvesh Chandra Pujari<br>
+                    <strong>Contact:</strong> pujariji@gmail.com<br>
+                    <strong>App Version:</strong> 1.0
+                </p>
+            </div>
+
+            <!-- Section 2: Data We Collect -->
+            <div class="section" id="data-collect">
+                <h2>2. Data We Collect</h2>
+
+                <h3>2.1 Breathing Session Data (Stored Locally)</h3>
+                <p>When you use Deep Flow, we collect and store the following data <strong>only on your device</strong>:</p>
+                <ul>
+                    <li><strong>Session Duration:</strong> How long each breathing session lasted</li>
+                    <li><strong>Breathing Pattern Used:</strong> Which pattern you selected (e.g., "Calm", "Focus", "SOS Calm")</li>
+                    <li><strong>Mood Data:</strong> Your mood before and after each session (optional)</li>
+                    <li><strong>Triggers:</strong> What prompted you to use the app (optional)</li>
+                    <li><strong>Session Notes:</strong> Any personal notes you add (optional)</li>
+                    <li><strong>Cycles Completed:</strong> Number of breathing cycles you completed</li>
+                    <li><strong>Timestamp:</strong> When the session ended</li>
+                    <li><strong>Session History:</strong> All past sessions visible in your "Stats" screen</li>
+                </ul>
+                
+                <div class="info-box">
+                    <strong>💡 Key Point:</strong> All this data is stored on your phone using SharedPreferences (local storage). <strong>We do NOT upload this data to any server.</strong>
+                </div>
+
+                <h3>2.2 Advertising Data</h3>
+                <ul>
+                    <li><strong>Google AdMob AD_ID:</strong> When you first open the app, Google's Mobile Ads SDK collects your device's advertising ID for ad serving</li>
+                    <li><strong>Ad Impressions & Clicks:</strong> Google AdMob tracks which ads you see and interact with</li>
+                </ul>
+                <p>For details on how Google processes this data, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a></p>
+
+                <h3>2.3 Notification Data</h3>
+                <p>When you enable Daily Reminders:</p>
+                <ul>
+                    <li><strong>Reminder Schedule:</strong> Your preferred time for daily breathing reminders</li>
+                    <li><strong>Reminder Status:</strong> Whether you have reminders enabled or disabled</li>
+                </ul>
+                <p>Notification data is processed <strong>locally on your device</strong> only. We do NOT track whether you tapped, dismissed, or ignored reminders.</p>
+
+                <h3>2.4 App Settings & Preferences</h3>
+                <ul>
+                    <li><strong>Theme Preference:</strong> Light/Dark mode, dynamic colors</li>
+                    <li><strong>Sound Settings:</strong> Whether sounds are enabled</li>
+                    <li><strong>Haptic Feedback:</strong> Whether vibrations are enabled</li>
+                    <li><strong>Notification Preferences:</strong> Which types of notifications you want</li>
+                    <li><strong>Pro Status:</strong> Whether you're using Free or Pro version</li>
+                </ul>
+                <p>All stored locally on your device.</p>
+
+                <h3>2.5 In-App Purchase Data</h3>
+                <p>If you purchase the Pro version:</p>
+                <ul>
+                    <li><strong>Transaction ID:</strong> Unique identifier for your purchase</li>
+                    <li><strong>Purchase Date & Time:</strong> When you made the purchase</li>
+                    <li><strong>Purchase Amount:</strong> How much you paid</li>
+                    <li><strong>Payment Method:</strong> Processed through Apple App Store or Google Play Store</li>
+                </ul>
+                <p>This data is managed by <strong>Apple</strong> (for iOS) or <strong>Google Play</strong> (for Android). We do NOT store payment details directly.</p>
+
+                <h3>2.6 Analytics & Crash Reporting</h3>
+                <div class="success-box">
+                    <strong>✓ Privacy-First Approach:</strong>
+                    <ul style="margin: 10px 0 0 20px;">
+                        <li>Deep Flow does <strong>NOT</strong> use Firebase Analytics or Crashlytics</li>
+                        <li>We do <strong>NOT</strong> collect crash logs or usage analytics</li>
+                        <li>Your app usage is completely private to you</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 3: Data We Do NOT Collect -->
+            <div class="section" id="data-not-collect">
+                <h2>3. Data We Do NOT Collect</h2>
+                <p>Deep Flow <strong>explicitly does NOT</strong> collect:</p>
+                
+                <table>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Status</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Location Data</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>No GPS, WiFi location, or any location information</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Information</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>No phone numbers, emails, or names (except optional notes)</td>
+                    </tr>
+                    <tr>
+                        <td>Health Data</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>No heart rate, biometric data, or health app integration</td>
+                    </tr>
+                    <tr>
+                        <td>Microphone Data</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>We do not record audio from your device</td>
+                    </tr>
+                    <tr>
+                        <td>Camera Data</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>We do not access your camera</td>
+                    </tr>
+                    <tr>
+                        <td>Files & Documents</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>Except audio files you manually select for custom sessions</td>
+                    </tr>
+                    <tr>
+                        <td>Browsing History</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>We do not track websites you visit</td>
+                    </tr>
+                    <tr>
+                        <td>Call Logs & SMS</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>No access to call history or messages</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Identification</td>
+                        <td><span class="cross">❌</span></td>
+                        <td>No real name, age, or government IDs required</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Section 4: How We Use Your Data -->
+            <div class="section" id="data-use">
+                <h2>4. How We Use Your Data</h2>
+
+                <h3>4.1 Session Data (Local Use)</h3>
+                <p>Your breathing session data is used to:</p>
+                <ul>
+                    <li>Display your statistics in the Stats screen</li>
+                    <li>Calculate streaks and milestones</li>
+                    <li>Track mood trends to help you see if breathing techniques are helping</li>
+                    <li>Generate session reports that you can export for your personal records</li>
+                    <li>Improve your experience by remembering your favorite patterns</li>
+                </ul>
+
+                <h3>4.2 Advertising Data</h3>
+                <p>Your AD_ID is used to:</p>
+                <ul>
+                    <li>Show relevant ads from Google's ad network</li>
+                    <li>Personalize ads based on your interests (you can opt out in device settings)</li>
+                    <li>Measure ad performance to improve the app's monetization</li>
+                </ul>
+                <div class="info-box">
+                    <strong>💡 You have control:</strong> You can opt out of personalized ads in your Android/iOS settings without losing app functionality.
+                </div>
+
+                <h3>4.3 Notification Data</h3>
+                <p>Your reminder preferences are used to:</p>
+                <ul>
+                    <li>Send you daily breathing reminders at your preferred time</li>
+                    <li>Respect your preferences (no reminders if you disable them)</li>
+                </ul>
+            </div>
+
+            <!-- Section 5: Data Retention & Deletion -->
+            <div class="section" id="retention">
+                <h2>5. Data Retention & Deletion</h2>
+
+                <h3>5.1 How Long We Keep Your Data</h3>
+                <ul>
+                    <li><strong>Session History:</strong> Stored indefinitely until you manually delete</li>
+                    <li><strong>Settings & Preferences:</strong> Stored until you uninstall the app</li>
+                    <li><strong>Notifications:</strong> Stored until you change your reminder settings</li>
+                </ul>
+
+                <h3>5.2 How to Delete Your Data</h3>
+                <p>You can delete all Deep Flow data by:</p>
+
+                <h4 style="color: #1e293b; margin-top: 15px;">In-App Method:</h4>
+                <ol>
+                    <li>Go to <code>Settings</code> → <code>Stats</code> → <strong>"Clear All Data"</strong> button</li>
+                    <li>This deletes all session history, mood tracking, and personal notes</li>
+                </ol>
+
+                <h4>Device Settings Method:</h4>
+                <ul>
+                    <li><strong>Android:</strong> Settings → Apps → Deep Flow → Storage → Clear Cache/Clear Storage</li>
+                    <li><strong>iOS:</strong> Settings → General → iPhone Storage → Deep Flow → Offload App or Delete App</li>
+                </ul>
+
+                <h4>Complete Removal:</h4>
+                <ul>
+                    <li>Simply uninstall the app</li>
+                    <li>All data stored on your device is immediately deleted</li>
+                    <li>Your purchase (Pro) may persist in your App Store account (managed by Apple/Google)</li>
+                </ul>
+
+                <div class="warning" style="background: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; margin: 20px 0; border-radius: 6px; color: #7f1d1d;">
+                    <strong>⚠️ Important:</strong> Once deleted, <strong>data cannot be recovered.</strong> We do not maintain backups of your personal session data.
+                </div>
+            </div>
+
+            <!-- Section 6: Data Security -->
+            <div class="section" id="security">
+                <h2>6. Data Security</h2>
+
+                <h3>6.1 How We Protect Your Data</h3>
+                <ul>
+                    <li><strong>Local Storage:</strong> All session data is encrypted by your device's OS (Android uses encryption, iOS uses Secure Enclave)</li>
+                    <li><strong>No Server Transmission:</strong> Your breathing data never leaves your phone</li>
+                    <li><strong>Permissions-Based:</strong> We only request permissions we actually use (Vibrate, Notifications, Alarms)</li>
+                    <li><strong>No Persistent IDs:</strong> We do not create user accounts or IDs</li>
+                </ul>
+
+                <h3>6.2 What Could Go Wrong?</h3>
+                <p>While we take security seriously, risks include:</p>
+                <ul>
+                    <li><strong>Device theft:</strong> Someone with access to your unlocked phone could view your data</li>
+                    <li><strong>OS vulnerabilities:</strong> Android/iOS bugs could theoretically expose data</li>
+                    <li><strong>Malware:</strong> Malicious software on your phone could access app data</li>
+                </ul>
+
+                <div class="success-box">
+                    <strong>Mitigation:</strong>
+                    <ul style="margin: 10px 0 0 20px;">
+                        <li>Use device lock (PIN, password, biometric)</li>
+                        <li>Keep your OS updated</li>
+                        <li>Install apps only from official stores</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 7: Third-Party Services -->
+            <div class="section" id="third-party">
+                <h2>7. Third-Party Services</h2>
+                <p>Deep Flow integrates with the following third-party services:</p>
+
+                <h3>7.1 Google Mobile Ads (Google AdMob)</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> Display advertisements to free users</li>
+                    <li><strong>Data Shared:</strong> Device AD_ID, app usage patterns</li>
+                    <li><strong>Privacy:</strong> <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+                    <li><strong>Opt-Out:</strong> Settings → Google → Ads → Opt Out of Personalized Ads</li>
+                </ul>
+
+                <h3>7.2 Apple App Store / Google Play Store</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> In-app purchases (Pro version), app distribution</li>
+                    <li><strong>Data Shared:</strong> Transaction data, purchase history</li>
+                    <li><strong>Privacy:</strong>
+                        <ul style="margin-top: 10px;">
+                            <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Privacy Policy</a></li>
+                            <li><a href="https://www.apple.com/privacy/" target="_blank">Apple Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>7.3 Awesome Notifications Library</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> Display local notifications and reminders</li>
+                    <li><strong>Data Shared:</strong> None (purely local notifications)</li>
+                    <li><strong>Privacy:</strong> Open-source library, no external server</li>
+                </ul>
+
+                <h3>7.4 Lottie Animation Library</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> Render breathing animations</li>
+                    <li><strong>Data Shared:</strong> None (local processing only)</li>
+                    <li><strong>Privacy:</strong> Open-source library, no external server</li>
+                </ul>
+            </div>
+
+            <!-- Section 8: Children's Privacy -->
+            <div class="section" id="children">
+                <h2>8. Children's Privacy</h2>
+
+                <h3>8.1 Age Restriction</h3>
+                <p>Deep Flow is designed for <strong>ages 13+</strong>. We do not knowingly collect personal information from children under 13.</p>
+
+                <h3>8.2 Parental Controls</h3>
+                <p>If a parent/guardian allows a child to use Deep Flow:</p>
+                <ul>
+                    <li>The child's session data is stored locally on their device</li>
+                    <li>Parents can review Data Deletion options above</li>
+                    <li>No personal information is collected beyond session metadata</li>
+                </ul>
+
+                <h3>8.3 COPPA Compliance (US)</h3>
+                <p>We comply with the Children's Online Privacy Protection Act:</p>
+                <ul>
+                    <li>We do not collect personal information from children under 13</li>
+                    <li>We do not knowingly target children under 13 with personalized ads</li>
+                    <li>If we discover a child under 13 is using the app, we advise the parent/guardian to delete the data</li>
+                </ul>
+            </div>
+
+            <!-- Section 9: CCPA -->
+            <div class="section" id="ccpa">
+                <h2>9. California Privacy Rights (CCPA)</h2>
+                <p>If you are a California resident, you have the right to:</p>
+                <ol>
+                    <li><strong>Know:</strong> What personal information is collected</li>
+                    <li><strong>Delete:</strong> Request deletion of your data (use in-app tools above)</li>
+                    <li><strong>Opt-Out:</strong> Opt out of "sales" of personal information (we do not sell data)</li>
+                    <li><strong>Access:</strong> Request access to your data (export from Stats screen)</li>
+                    <li><strong>Non-Discrimination:</strong> You will not face discrimination for exercising these rights</li>
+                </ol>
+
+                <h4>How to Submit a Request:</h4>
+                <p>Email <strong>pujariji@gmail.com</strong> with:</p>
+                <ul>
+                    <li>Your full name</li>
+                    <li>Email address</li>
+                    <li>Request type (Know, Delete, Access, Opt-Out)</li>
+                    <li>Device details (iOS/Android, app version)</li>
+                </ul>
+                <p>We will respond within <strong>45 days</strong>.</p>
+            </div>
+
+            <!-- Section 10: International Users -->
+            <div class="section" id="international">
+                <h2>10. International Users (GDPR & Others)</h2>
+
+                <h3>10.1 European Union (GDPR)</h3>
+                <p>If you are in the EU, you have additional rights:</p>
+                <ul>
+                    <li><strong>Right to Access:</strong> Get a copy of your data</li>
+                    <li><strong>Right to Rectify:</strong> Correct inaccurate data</li>
+                    <li><strong>Right to Erasure:</strong> "Right to be Forgotten" (use in-app delete)</li>
+                    <li><strong>Right to Restrict Processing:</strong> Limit how we use your data</li>
+                    <li><strong>Right to Data Portability:</strong> Export your data in a standard format</li>
+                    <li><strong>Right to Object:</strong> Object to certain processing</li>
+                </ul>
+
+                <h4>Legal Basis:</h4>
+                <p>We process data based on:</p>
+                <ul>
+                    <li>Your consent (when you enable features)</li>
+                    <li>Legitimate interest (keeping the app running)</li>
+                    <li>Contractual necessity (providing services you requested)</li>
+                </ul>
+
+                <h4>Contact:</h4>
+                <p>For GDPR inquiries, email <strong>pujariji@gmail.com</strong></p>
+
+                <h3>10.2 Other Regions</h3>
+                <p>We comply with:</p>
+                <ul>
+                    <li><strong>Canada PIPEDA:</strong> Personal Information Protection and Electronic Documents Act</li>
+                    <li><strong>Australia Privacy Act:</strong> Australian Privacy Principles</li>
+                    <li><strong>Japan APPI:</strong> Act on Protection of Personal Information</li>
+                </ul>
+            </div>
+
+            <!-- Section 11: Updates -->
+            <div class="section" id="updates">
+                <h2>11. Updates to This Policy</h2>
+                <p>We may update this Privacy Policy as needed. Changes will be posted in-app and the "Last Updated" date will be revised.</p>
+                
+                <div class="info-box">
+                    <strong>💡 Your Consent:</strong> Your continued use of the app means you accept the updated policy.
+                </div>
+
+                <p>Significant changes will be announced via:</p>
+                <ul>
+                    <li>In-app notification</li>
+                    <li>Settings screen update</li>
+                    <li>New Privacy Policy section</li>
+                </ul>
+            </div>
+
+            <!-- Section 12: Contact -->
+            <div class="section" id="contact">
+                <h2>12. Contact & Support</h2>
+
+                <h3>12.1 Questions About This Policy?</h3>
+                <div class="contact-card">
+                    <h3>📧 Email Us</h3>
+                    <a href="mailto:pujariji@gmail.com">pujariji@gmail.com</a>
+                    <p style="margin-top: 15px; color: #64748b;">Include:</p>
+                    <ul style="text-align: left; display: inline-block; font-size: 0.95em;">
+                        <li>Your question or concern</li>
+                        <li>Device type (iOS/Android)</li>
+                        <li>App version (Settings → About)</li>
+                        <li>Description of your issue</li>
+                    </ul>
+                    <p style="margin-top: 15px; color: #64748b;">We aim to respond within <strong>7 business days</strong>.</p>
+                </div>
+
+                <h3>12.2 Data Subject Requests (GDPR/CCPA)</h3>
+                <p>For formal data subject requests (access, deletion, export), send a detailed email to <strong>pujariji@gmail.com</strong> with:</p>
+                <ul>
+                    <li>Full name</li>
+                    <li>Email address</li>
+                    <li>Device details</li>
+                    <li>Type of request (Access, Deletion, Export, Correction)</li>
+                    <li>Reason for request</li>
+                </ul>
+                <p>We will respond within <strong>45 days</strong> (CCPA/GDPR standard).</p>
+
+                <h3>12.3 Concerns or Complaints</h3>
+                <p>If you believe your privacy has been violated:</p>
+                <ol>
+                    <li><strong>First:</strong> Contact us at <strong>pujariji@gmail.com</strong></li>
+                    <li><strong>GDPR:</strong> File a complaint with your local Data Protection Authority</li>
+                    <li><strong>CCPA:</strong> File a complaint with California's Attorney General</li>
+                    <li><strong>General:</strong> File a complaint with Google Play or Apple App Store</li>
+                </ol>
+            </div>
+
+            <!-- Section 13: Summary -->
+            <div class="section" id="summary">
+                <h2>13. Summary of Key Points</h2>
+                <div class="success-box">
+                    <ul style="list-style: none; margin-left: 0;">
+                        <li><span class="checkmark">✓</span> Your session data stays on your phone — We do NOT upload it</li>
+                        <li><span class="checkmark">✓</span> You control what's collected — Mood tracking and notes are optional</li>
+                        <li><span class="checkmark">✓</span> You can delete everything — Clear data anytime from Settings</li>
+                        <li><span class="checkmark">✓</span> We don't sell your data — No data sharing with third parties (except Google Ads)</li>
+                        <li><span class="checkmark">✓</span> Ads are optional — Upgrade to Pro for an ad-free experience</li>
+                        <li><span class="checkmark">✓</span> Transparent processing — We only use data for stated purposes</li>
+                        <li><span class="checkmark">✓</span> Your privacy rights — CCPA, GDPR, and other privacy laws apply</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 14: Appendix -->
+            <div class="section" id="appendix">
+                <h2>14. Appendix: Technical Details</h2>
+
+                <h3>14.1 Data Storage</h3>
+                <ul>
+                    <li><strong>Local Storage:</strong> Android SharedPreferences, iOS UserDefaults</li>
+                    <li><strong>Encryption:</strong> Device-managed encryption (Android, iOS)</li>
+                    <li><strong>Backup:</strong> No automatic cloud backup (manual export available)</li>
+                </ul>
+
+                <h3>14.2 Permissions Requested</h3>
+                <table>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Why We Need It</th>
+                        <th>Optional?</th>
+                    </tr>
+                    <tr>
+                        <td><code>INTERNET</code></td>
+                        <td>Google Ads, app updates</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>VIBRATE</code></td>
+                        <td>Haptic feedback during breathing</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>POST_NOTIFICATIONS</code></td>
+                        <td>Daily reminders</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>SCHEDULE_EXACT_ALARM</code></td>
+                        <td>Daily reminder timing</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+                        <td>Restore reminders after reboot</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>FOREGROUND_SERVICE</code></td>
+                        <td>Keep session running in background</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>WAKE_LOCK</code></td>
+                        <td>Prevent screen sleep during sessions</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><code>AD_ID</code></td>
+                        <td>Google AdMob personalization</td>
+                        <td>Yes</td>
+                    </tr>
+                </table>
+
+                <h3>14.3 Third-Party Libraries</h3>
+                <p>All dependencies are open-source and auditable:</p>
+                <table>
+                    <tr>
+                        <th>Library</th>
+                        <th>Purpose</th>
+                        <th>Data Collection?</th>
+                    </tr>
+                    <tr>
+                        <td><code>flutter_riverpod</code></td>
+                        <td>State management</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>just_audio</code></td>
+                        <td>Audio playback</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>google_mobile_ads</code></td>
+                        <td>Advertisements</td>
+                        <td>Yes (Google's Privacy Policy applies)</td>
+                    </tr>
+                    <tr>
+                        <td><code>awesome_notifications</code></td>
+                        <td>Local notifications</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>lottie</code></td>
+                        <td>Animations</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>shared_preferences</code></td>
+                        <td>Local storage</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><code>in_app_purchase</code></td>
+                        <td>Purchases</td>
+                        <td>Managed by Apple/Google</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 Sarvesh Chandra Pujari. All rights reserved.</strong></p>
+            <p>Deep Flow - Wellness Breathing App</p>
+            <p>Last Updated: February 2025 | Version: 1.0</p>
+            <p style="margin-top: 20px; opacity: 0.7;">This Privacy Policy is valid for all platforms (iOS, Android, Web)</p>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+    <script>
+        // Smooth scrolling for table of contents
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll to top button functionality
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add print functionality
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                // Allow default print behavior
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
