@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for DeepFlow — A privacy-first breathing wellness app">
+    <meta name="description" content="Privacy Policy for DeepFlow — 100% offline, privacy-first breathing app">
     <meta name="author" content="Sarvesh Chandra Pujari">
     <title>Privacy Policy — DeepFlow</title>
     
@@ -15,39 +15,27 @@
     <style>
         :root {
             /* DeepFlow Brand Colors */
-            --background: #0F1720;           /* Inky Navy */
-            --surface: #141C28;              /* Deep Navy */
-            --surface-high: #1A2535;         /* Card background */
-            --primary: #0D9488;              /* Deep Teal */
-            --primary-light: #14B8A6;        /* Bright Teal */
-            --text-primary: #F1F2F3;         /* Off-white */
-            --text-secondary: #94A3B8;       /* Muted grey */
-            --text-tertiary: #64748B;        /* Darker grey */
+            --background: #0F1720;
+            --surface: #141C28;
+            --surface-high: #1A2535;
+            --primary: #0D9488;
+            --primary-light: #14B8A6;
+            --text-primary: #F1F2F3;
+            --text-secondary: #94A3B8;
+            --text-tertiary: #64748B;
             --border: rgba(255, 255, 255, 0.1);
             --success: #1DB954;
             --warning: #FF9800;
-            --error: #F44336;
             
-            /* Spacing & Layout */
-            --radius-sm: 8px;
+            /* Layout */
             --radius-md: 12px;
             --radius-lg: 16px;
-            --radius-xl: 24px;
-            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
             --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
-            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.4);
             --transition: all 0.2s ease;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -56,22 +44,20 @@
             line-height: 1.7;
             font-size: 16px;
             -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
         }
 
-        /* Premium Container */
         .container {
-            max-width: 900px;
+            max-width: 720px;
             margin: 0 auto;
             padding: 0 24px;
         }
 
         /* Header */
         .header {
-            padding: 64px 0 48px;
+            padding: 56px 0 40px;
             text-align: center;
             border-bottom: 1px solid var(--border);
-            margin-bottom: 48px;
+            margin-bottom: 40px;
         }
 
         .header-badge {
@@ -84,12 +70,11 @@
             border-radius: 100px;
             font-size: 13px;
             color: var(--text-secondary);
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
 
         .header-badge .dot {
-            width: 8px;
-            height: 8px;
+            width: 8px; height: 8px;
             background: var(--success);
             border-radius: 50%;
             animation: pulse 2s infinite;
@@ -102,9 +87,9 @@
 
         .header h1 {
             font-family: 'Outfit', sans-serif;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             font-weight: 700;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             letter-spacing: -0.02em;
             background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-light) 100%);
             -webkit-background-clip: text;
@@ -112,105 +97,52 @@
             background-clip: text;
         }
 
-        .header .app-name {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 8px;
-        }
-
         .header .meta {
             font-size: 0.9rem;
             color: var(--text-tertiary);
         }
 
-        .header .meta strong {
-            color: var(--text-primary);
-        }
+        .header .meta strong { color: var(--text-primary); }
 
-        /* Table of Contents */
-        .toc {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            margin-bottom: 40px;
-        }
-
-        .toc h3 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 16px;
-            color: var(--text-primary);
-        }
-
-        .toc ul {
-            list-style: none;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 8px 16px;
-        }
-
-        .toc a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: var(--transition);
-            padding: 4px 0;
-            display: block;
-        }
-
-        .toc a:hover {
-            color: var(--primary);
-            transform: translateX(4px);
-        }
-
-        /* Sections */
+        /* Content */
         .section {
-            margin-bottom: 56px;
+            margin-bottom: 32px;
             scroll-margin-top: 24px;
         }
 
         .section h2 {
             font-family: 'Outfit', sans-serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 600;
-            margin-bottom: 20px;
-            padding-bottom: 12px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
             border-bottom: 1px solid var(--border);
             color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .section h3 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1.15rem;
-            font-weight: 600;
-            margin: 28px 0 12px;
-            color: var(--text-primary);
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 18px;
+            background: var(--primary);
+            border-radius: 2px;
         }
 
         .section p {
-            margin-bottom: 16px;
+            margin-bottom: 14px;
             color: var(--text-secondary);
         }
 
-        .section ul, .section ol {
-            margin: 16px 0 16px 24px;
+        .section ul {
+            margin: 12px 0 12px 24px;
             color: var(--text-secondary);
         }
 
         .section li {
-            margin-bottom: 8px;
-        }
-
-        .section code {
-            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
-            background: var(--surface-high);
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.9em;
-            color: var(--primary-light);
-            border: 1px solid var(--border);
+            margin-bottom: 6px;
         }
 
         /* Premium Cards */
@@ -218,8 +150,8 @@
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius-lg);
-            padding: 24px;
-            margin: 20px 0;
+            padding: 20px;
+            margin: 16px 0;
         }
 
         .card.highlight {
@@ -232,91 +164,15 @@
             background: linear-gradient(135deg, var(--surface) 0%, rgba(255, 152, 0, 0.05) 100%);
         }
 
-        .card.success {
-            border-left: 3px solid var(--success);
-            background: linear-gradient(135deg, var(--surface) 0%, rgba(29, 185, 84, 0.05) 100%);
-        }
-
         .card-title {
             font-family: 'Outfit', sans-serif;
             font-weight: 600;
             font-size: 1.05rem;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             color: var(--text-primary);
             display: flex;
             align-items: center;
             gap: 8px;
-        }
-
-        /* Tables */
-        .table-wrapper {
-            overflow-x: auto;
-            margin: 20px 0;
-            border-radius: var(--radius-md);
-            border: 1px solid var(--border);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: var(--surface);
-            font-size: 0.95rem;
-        }
-
-        th {
-            background: var(--surface-high);
-            color: var(--text-primary);
-            font-weight: 600;
-            text-align: left;
-            padding: 14px 16px;
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-bottom: 1px solid var(--border);
-        }
-
-        td {
-            padding: 14px 16px;
-            border-bottom: 1px solid var(--border);
-            color: var(--text-secondary);
-        }
-
-        tr:last-child td {
-            border-bottom: none;
-        }
-
-        tr:hover {
-            background: var(--surface-high);
-        }
-
-        /* Status Badges */
-        .badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            padding: 4px 12px;
-            border-radius: 100px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-
-        .badge.local {
-            background: rgba(13, 148, 136, 0.15);
-            color: var(--primary-light);
-            border: 1px solid rgba(13, 148, 136, 0.3);
-        }
-
-        .badge.none {
-            background: rgba(244, 67, 54, 0.1);
-            color: var(--error);
-            border: 1px solid rgba(244, 67, 54, 0.3);
-        }
-
-        .badge.managed {
-            background: rgba(100, 116, 139, 0.2);
-            color: var(--text-secondary);
-            border: 1px solid var(--border);
         }
 
         /* Contact Card */
@@ -324,15 +180,15 @@
             background: linear-gradient(135deg, var(--surface) 0%, var(--surface-high) 100%);
             border: 1px solid var(--border);
             border-radius: var(--radius-lg);
-            padding: 28px;
+            padding: 24px;
             text-align: center;
-            margin: 24px 0;
+            margin: 20px 0;
         }
 
         .contact-card h4 {
             font-family: 'Outfit', sans-serif;
-            font-size: 1.1rem;
-            margin-bottom: 12px;
+            font-size: 1.05rem;
+            margin-bottom: 10px;
             color: var(--text-primary);
         }
 
@@ -340,7 +196,7 @@
             color: var(--primary);
             text-decoration: none;
             font-weight: 500;
-            font-size: 1.05rem;
+            font-size: 1rem;
             transition: var(--transition);
         }
 
@@ -351,30 +207,28 @@
         .contact-card .note {
             font-size: 0.9rem;
             color: var(--text-tertiary);
-            margin-top: 12px;
+            margin-top: 10px;
         }
 
         /* Footer */
         .footer {
-            padding: 40px 0;
+            padding: 32px 0;
             border-top: 1px solid var(--border);
             text-align: center;
             color: var(--text-tertiary);
             font-size: 0.9rem;
-            margin-top: 32px;
+            margin-top: 24px;
         }
 
-        .footer strong {
-            color: var(--text-primary);
-        }
+        .footer strong { color: var(--text-primary); }
 
         /* Scroll to Top */
         .scroll-to-top {
             position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 44px;
-            height: 44px;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: var(--surface-high);
             border: 1px solid var(--border);
@@ -386,7 +240,7 @@
             opacity: 0;
             visibility: hidden;
             transition: var(--transition);
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             z-index: 100;
         }
 
@@ -402,61 +256,19 @@
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
-            .header {
-                padding: 48px 0 32px;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .toc ul {
-                grid-template-columns: 1fr;
-            }
-
-            .section h2 {
-                font-size: 1.3rem;
-            }
-
-            .section h3 {
-                font-size: 1.05rem;
-            }
-
-            table {
-                font-size: 0.9rem;
-            }
-
-            th, td {
-                padding: 12px 14px;
-            }
+        @media (max-width: 600px) {
+            .header { padding: 40px 0 28px; }
+            .header h1 { font-size: 1.8rem; }
+            .section h2 { font-size: 1.15rem; }
         }
 
-        /* Print Styles */
+        /* Print */
         @media print {
-            body {
-                background: white;
-                color: black;
-            }
-
-            .header h1 {
-                -webkit-text-fill-color: black;
-                background: none;
-            }
-
-            .card, .toc, .table-wrapper {
-                background: white;
-                border-color: #ddd;
-            }
-
-            .scroll-to-top {
-                display: none;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
+            body { background: white; color: black; }
+            .header h1 { -webkit-text-fill-color: black; background: none; }
+            .card { background: white; border-color: #ddd; }
+            .scroll-to-top { display: none; }
+            a { text-decoration: none; color: black; }
         }
     </style>
 </head>
@@ -466,421 +278,95 @@
         <header class="header">
             <div class="header-badge">
                 <span class="dot"></span>
-                Privacy-First • Offline • No Tracking
+                100% Offline • No Ads • Privacy-First
             </div>
             <h1>Privacy Policy</h1>
-            <p class="app-name">DeepFlow — Wellness Breathing App</p>
             <p class="meta">
                 <strong>Developer:</strong> Sarvesh Chandra Pujari • 
                 <strong>Last Updated:</strong> March 2026 • 
-                <strong>App Version:</strong> 1.2.10+29
+                <strong>Version:</strong> 1.2.10+29
             </p>
         </header>
 
-        <!-- Table of Contents -->
-        <nav class="toc">
-            <h3>📋 Contents</h3>
-            <ul>
-                <li><a href="#overview">1. Overview</a></li>
-                <li><a href="#data-collect">2. Data We Collect</a></li>
-                <li><a href="#data-not-collect">3. Data We Do NOT Collect</a></li>
-                <li><a href="#data-use">4. How We Use Your Data</a></li>
-                <li><a href="#retention">5. Retention & Deletion</a></li>
-                <li><a href="#security">6. Security</a></li>
-                <li><a href="#third-party">7. Third-Party Services</a></li>
-                <li><a href="#children">8. Children's Privacy</a></li>
-                <li><a href="#rights">9. Your Rights</a></li>
-                <li><a href="#updates">10. Policy Updates</a></li>
-                <li><a href="#contact">11. Contact</a></li>
-                <li><a href="#summary">12. Summary</a></li>
-            </ul>
-        </nav>
-
-        <!-- Section 1: Overview -->
-        <section class="section" id="overview">
-            <h2>1. Overview</h2>
-            <p>DeepFlow is a premium breathing wellness app designed to help you practice mindfulness, reduce stress, and improve your mental well-being through guided breathing exercises.</p>
-            
-            <div class="card highlight">
-                <div class="card-title">🔒 Our Privacy Promise</div>
-                <p style="margin-bottom: 0;">
-                    DeepFlow operates on a <strong>privacy-first, offline-only</strong> model. Your personal breathing data, mood logs, and session history are stored <strong>exclusively on your device</strong> and are never transmitted to external servers. We do not collect, track, or sell your personal information.
-                </p>
-            </div>
-
-            <div class="card warning" style="margin-top: 20px;">
-                <div class="card-title">⚠️ Medical Disclaimer</div>
-                <p style="margin-bottom: 0;">
-                    DeepFlow is <strong>not a medical device</strong> and is not intended to diagnose, treat, cure, or prevent any disease or medical condition. It is designed as a wellness and educational tool. Always consult a qualified healthcare professional for medical advice.
-                </p>
-            </div>
+        <!-- 100% Offline -->
+        <section class="section">
+            <h2>🔒 100% Offline</h2>
+            <p>Deep Flow works completely offline. No internet connection is required to use any feature of this app. Your breathing sessions, statistics, and preferences are never transmitted to any server.</p>
         </section>
 
-        <!-- Section 2: Data We Collect -->
-        <section class="section" id="data-collect">
-            <h2>2. Data We Collect</h2>
-            <p>All data listed below is stored <strong>locally on your device only</strong> using encrypted local storage (SharedPreferences on Android, UserDefaults on iOS).</p>
-
-            <h3>2.1 Breathing Session Data</h3>
+        <!-- Data Stored Locally -->
+        <section class="section">
+            <h2>📦 Data Stored Locally</h2>
+            <p>All your data is stored exclusively on your device:</p>
             <ul>
-                <li><strong>Session Metadata:</strong> Duration, pattern used, cycles completed, timestamp</li>
-                <li><strong>Mood Tracking:</strong> Optional pre/post session mood selection</li>
-                <li><strong>Triggers & Notes:</strong> Optional context about why you practiced</li>
-                <li><strong>Progress Metrics:</strong> Streaks, total minutes, pattern preferences</li>
+                <li>Session history and statistics</li>
+                <li>Personal preferences and settings</li>
+                <li>Custom breathing patterns</li>
+                <li>Reminder schedules</li>
             </ul>
-
-            <h3>2.2 App Preferences</h3>
-            <ul>
-                <li><strong>Visual Settings:</strong> Theme mode, color theme, orb selection</li>
-                <li><strong>Audio Settings:</strong> Sound on/off, volume levels, cue style</li>
-                <li><strong>Haptic Settings:</strong> Vibration preferences</li>
-                <li><strong>Notification Settings:</strong> Reminder schedules and preferences</li>
-            </ul>
-
-            <h3>2.3 Purchase Information</h3>
-            <p>If you purchase DeepFlow Pro (one-time lifetime unlock):</p>
-            <ul>
-                <li>Transaction is processed securely by <strong>Google Play Store</strong> (Android) or <strong>Apple App Store</strong> (iOS)</li>
-                <li>We receive only a <strong>purchase verification token</strong> — no payment details, card numbers, or personal financial information</li>
-                <li>Your Pro status is stored locally and can be restored via the store's receipt system</li>
-            </ul>
-
-            <div class="card success">
-                <div class="card-title">✅ Zero Analytics • Zero Tracking</div>
-                <p style="margin-bottom: 0;">
-                    DeepFlow does <strong>not</strong> use Firebase Analytics, Crashlytics, Google Analytics, or any third-party tracking SDKs. We do not collect crash reports, usage statistics, or behavioral data. Your app experience is completely private.
-                </p>
-            </div>
+            <p>We do not have access to any of this data.</p>
         </section>
 
-        <!-- Section 3: Data We Do NOT Collect -->
-        <section class="section" id="data-not-collect">
-            <h2>3. Data We Do NOT Collect</h2>
-            <p>DeepFlow explicitly does <strong>not</strong> collect, access, or transmit any of the following:</p>
-
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Data Category</th>
-                            <th>Status</th>
-                            <th>Details</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Location Data</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No GPS, WiFi, or IP-based location</td>
-                        </tr>
-                        <tr>
-                            <td>Personal Identity</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No name, email, phone, or account required</td>
-                        </tr>
-                        <tr>
-                            <td>Health/Biometric Data</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No heart rate, sleep data, or HealthKit/Google Fit integration</td>
-                        </tr>
-                        <tr>
-                            <td>Microphone/Camera</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No audio recording or camera access</td>
-                        </tr>
-                        <tr>
-                            <td>Files & Documents</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>Except optional ambient audio files you manually select</td>
-                        </tr>
-                        <tr>
-                            <td>Browsing/App Usage</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No tracking of other apps or websites</td>
-                        </tr>
-                        <tr>
-                            <td>Advertising ID</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>No AdMob, no personalized ads, no ad tracking</td>
-                        </tr>
-                        <tr>
-                            <td>Server Uploads</td>
-                            <td><span class="badge none">❌ Never</span></td>
-                            <td>Your data never leaves your device</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <!-- Mood Tracking -->
+        <section class="section">
+            <h2>😊 Mood Tracking (Optional)</h2>
+            <p>You can optionally log your mood before and after sessions. This data helps you understand which breathing patterns work best for you. All mood data stays on your device.</p>
         </section>
 
-        <!-- Section 4: How We Use Your Data -->
-        <section class="section" id="data-use">
-            <h2>4. How We Use Your Data</h2>
-            
-            <h3>4.1 Local-Only Processing</h3>
-            <p>Your session data is used exclusively on your device to:</p>
-            <ul>
-                <li>Display your personal statistics and progress in the Stats screen</li>
-                <li>Calculate streaks, milestones, and practice insights</li>
-                <li>Generate optional PDF wellness reports for your personal records</li>
-                <li>Remember your favorite patterns and settings for a personalized experience</li>
-                <li>Provide mood trend analysis to help you observe your well-being journey</li>
-            </ul>
-
-            <h3>4.2 Notification System</h3>
-            <p>If you enable Daily Reminders:</p>
-            <ul>
-                <li>Your preferred reminder time is stored locally</li>
-                <li>Notifications are scheduled using your device's native notification system</li>
-                <li>We do not track whether you view, dismiss, or act on reminders</li>
-            </ul>
-
-            <h3>4.3 No External Processing</h3>
+        <!-- Advertising -->
+        <section class="section">
+            <h2>🚫 Advertising</h2>
             <div class="card highlight">
                 <p style="margin: 0;">
-                    <strong>Important:</strong> DeepFlow has no backend server, no cloud sync, and no data transmission. All processing happens locally on your device. This architecture ensures your privacy by design.
+                    Deep Flow is completely ad-free. We do not display any advertisements and do not use any ad networks. Your breathing sessions are never interrupted.
                 </p>
             </div>
+            <p style="margin-top: 12px;">
+                Our only revenue comes from a one-time Pro purchase. No subscriptions, no ads, no hidden fees.
+            </p>
         </section>
 
-        <!-- Section 5: Retention & Deletion -->
-        <section class="section" id="retention">
-            <h2>5. Data Retention & Deletion</h2>
-            
-            <h3>5.1 Retention Policy</h3>
+        <!-- Notifications -->
+        <section class="section">
+            <h2>🔔 Notifications</h2>
+            <p>If you enable daily reminders, notification data is processed locally on your device. We do not collect or track notification interactions.</p>
+        </section>
+
+        <!-- Data Deletion -->
+        <section class="section">
+            <h2>🗑️ Data Deletion</h2>
+            <p>You can delete all your data at any time by:</p>
             <ul>
-                <li><strong>Session History:</strong> Stored indefinitely until you choose to delete</li>
-                <li><strong>Preferences:</strong> Stored until app uninstall or manual reset</li>
-                <li><strong>Pro Purchase:</strong> Managed by Google Play/Apple App Store; can be restored anytime</li>
+                <li>Clearing the app data in your device settings</li>
+                <li>Uninstalling the app</li>
             </ul>
+            <p>Since all data is stored locally, uninstalling the app removes all data permanently.</p>
+        </section>
 
-            <h3>5.2 How to Delete Your Data</h3>
-            
-            <h4>🗑️ In-App Deletion</h4>
-            <ol style="margin-left: 20px; margin-bottom: 16px;">
-                <li>Open DeepFlow → Settings → Stats</li>
-                <li>Tap <strong>"Clear All Data"</strong></li>
-                <li>Confirm deletion</li>
-            </ol>
-            <p style="color: var(--text-tertiary); font-size: 0.9rem; margin-bottom: 20px;">This permanently deletes all session history, mood data, and personal notes.</p>
+        <!-- Children's Privacy -->
+        <section class="section">
+            <h2>👶 Children's Privacy</h2>
+            <p>This app is designed for general audiences. We do not knowingly collect any personal information from children.</p>
+        </section>
 
-            <h4>📱 Device-Level Deletion</h4>
-            <ul style="margin-left: 20px; margin-bottom: 16px;">
-                <li><strong>Android:</strong> Settings → Apps → DeepFlow → Storage → Clear Data</li>
-                <li><strong>iOS:</strong> Settings → General → iPhone Storage → DeepFlow → Delete App</li>
-            </ul>
-
-            <h4>🔄 Complete Removal</h4>
-            <p>Uninstalling the app immediately deletes all locally stored data. Your Pro purchase status can be restored via your store account if you reinstall.</p>
-
+        <!-- Health Disclaimer -->
+        <section class="section">
+            <h2>⚠️ Health Disclaimer</h2>
             <div class="card warning">
-                <div class="card-title">⚠️ Irreversible Action</div>
-                <p style="margin-bottom: 0;">
-                    Deleted data <strong>cannot be recovered</strong>. DeepFlow does not maintain backups of your personal session data. Please export any important reports before deletion.
+                <p style="margin: 0;">
+                    Deep Flow is a wellness app designed for relaxation and breath awareness. It is <strong>NOT a medical device</strong> and does not diagnose, treat, or cure any medical condition. Always consult a healthcare professional for medical advice.
                 </p>
             </div>
         </section>
 
-        <!-- Section 6: Security -->
-        <section class="section" id="security">
-            <h2>6. Data Security</h2>
-            
-            <h3>6.1 Protection Measures</h3>
-            <ul>
-                <li><strong>Local Encryption:</strong> Your device's OS encrypts app data (Android File-Based Encryption, iOS Data Protection)</li>
-                <li><strong>No Network Transmission:</strong> Session data never leaves your device</li>
-                <li><strong>Minimal Permissions:</strong> We only request permissions essential for core functionality</li>
-                <li><strong>No User Accounts:</strong> No login, no email, no persistent identifiers</li>
-            </ul>
-
-            <h3>6.2 Potential Risks & Mitigation</h3>
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Risk Scenario</th>
-                            <th>Mitigation</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Device theft or loss</td>
-                            <td>Use device lock (PIN, password, biometric). Data is encrypted at rest.</td>
-                        </tr>
-                        <tr>
-                            <td>OS vulnerability</td>
-                            <td>Keep your operating system updated with latest security patches.</td>
-                        </tr>
-                        <tr>
-                            <td>Malware on device</td>
-                            <td>Install apps only from official stores; use reputable security software.</td>
-                        </tr>
-                        <tr>
-                            <td>Physical access to unlocked device</td>
-                            <td>Enable auto-lock; use app-level privacy features if needed.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <!-- Section 7: Third-Party Services -->
-        <section class="section" id="third-party">
-            <h2>7. Third-Party Services</h2>
-            <p>DeepFlow integrates with minimal, privacy-respecting third-party services:</p>
-
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Service</th>
-                            <th>Purpose</th>
-                            <th>Data Shared</th>
-                            <th>Privacy Policy</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Google Play Store / Apple App Store</td>
-                            <td>App distribution, Pro purchases</td>
-                            <td>Transaction tokens only</td>
-                            <td>
-                                <a href="https://policies.google.com/privacy" target="_blank" style="color: var(--primary);">Google</a><br>
-                                <a href="https://www.apple.com/privacy/" target="_blank" style="color: var(--primary);">Apple</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Awesome Notifications (Open Source)</td>
-                            <td>Local notification scheduling</td>
-                            <td><span class="badge local">None — Local Only</span></td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td>Lottie (Open Source)</td>
-                            <td>Rendering breathing animations</td>
-                            <td><span class="badge local">None — Local Only</span></td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td>just_audio (Open Source)</td>
-                            <td>Audio playback for breathing cues</td>
-                            <td><span class="badge local">None — Local Only</span></td>
-                            <td>—</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="card success" style="margin-top: 20px;">
-                <div class="card-title">✅ No Advertising SDKs • No Analytics • No Tracking</div>
-                <p style="margin-bottom: 0;">
-                    DeepFlow is 100% ad-free and does not integrate with any advertising, analytics, or tracking services. Your experience is private by design.
-                </p>
-            </div>
-        </section>
-
-        <!-- Section 8: Children's Privacy -->
-        <section class="section" id="children">
-            <h2>8. Children's Privacy</h2>
-            
-            <h3>8.1 Age Guidance</h3>
-            <p>DeepFlow is designed for users aged <strong>13 and above</strong>. We do not knowingly collect personal information from children under 13.</p>
-
-            <h3>8.2 Parental Considerations</h3>
-            <p>If a minor uses DeepFlow with parental permission:</p>
-            <ul>
-                <li>All data remains stored locally on the device</li>
-                <li>No personal identifiers are collected</li>
-                <li>Parents can use the in-app deletion tools described above</li>
-            </ul>
-
-            <h3>8.3 Regulatory Compliance</h3>
-            <p>We comply with applicable children's privacy regulations including COPPA (US) and GDPR-K (EU). If we become aware that a child under 13 has provided personal information, we will take steps to delete such information promptly.</p>
-        </section>
-
-        <!-- Section 9: Your Rights -->
-        <section class="section" id="rights">
-            <h2>9. Your Privacy Rights</h2>
-            
-            <h3>9.1 Global Rights Summary</h3>
-            <ul>
-                <li><strong>Right to Access:</strong> View all your stored data via the Stats screen</li>
-                <li><strong>Right to Delete:</strong> Permanently delete all data via Settings → Stats → Clear All Data</li>
-                <li><strong>Right to Export:</strong> Generate PDF reports of your session history (Pro feature)</li>
-                <li><strong>Right to Rectify:</strong> Edit or delete individual session notes and mood entries</li>
-                <li><strong>Right to Object:</strong> Disable any optional data collection (mood tracking, notes)</li>
-            </ul>
-
-            <h3>9.2 Regional Protections</h3>
-            <p>DeepFlow respects privacy regulations worldwide:</p>
-            <ul>
-                <li><strong>GDPR (EU/UK):</strong> Lawful basis: consent + legitimate interest. Data minimization by design.</li>
-                <li><strong>CCPA/CPRA (California):</strong> We do not "sell" or "share" personal information as defined by CCPA.</li>
-                <li><strong>Other Jurisdictions:</strong> We apply privacy-by-default principles globally.</li>
-            </ul>
-
-            <h3>9.3 Exercising Your Rights</h3>
-            <p>For formal privacy requests (access, deletion, export):</p>
+        <!-- Contact -->
+        <section class="section">
+            <h2>📧 Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
             <div class="contact-card">
-                <h4>📧 Email: <a href="mailto:pujariji@gmail.com">pujariji@gmail.com</a></h4>
-                <p class="note">Include: your name, device type (iOS/Android), app version, and request type. We respond within 30 days.</p>
-            </div>
-        </section>
-
-        <!-- Section 10: Policy Updates -->
-        <section class="section" id="updates">
-            <h2>10. Updates to This Policy</h2>
-            <p>We may update this Privacy Policy to reflect changes in our practices or legal requirements. When we do:</p>
-            <ul>
-                <li>The "Last Updated" date at the top will be revised</li>
-                <li>Material changes will be highlighted in the app's Settings screen</li>
-                <li>Continued use of DeepFlow constitutes acceptance of the updated policy</li>
-            </ul>
-            <p>We encourage you to review this policy periodically to stay informed about how we protect your privacy.</p>
-        </section>
-
-        <!-- Section 11: Contact -->
-        <section class="section" id="contact">
-            <h2>11. Contact & Support</h2>
-            
-            <h3>11.1 General Inquiries</h3>
-            <div class="contact-card">
-                <h4>📧 Email Support</h4>
-                <a href="mailto:pujariji@gmail.com">pujariji@gmail.com</a>
-                <p class="note">For questions about the app, privacy policy, or technical support. Response time: 3–7 business days.</p>
-            </div>
-
-            <h3>11.2 Privacy-Specific Requests</h3>
-            <p>For formal data subject requests (access, deletion, export, correction):</p>
-            <ul style="margin-left: 20px; margin-bottom: 16px;">
-                <li>Send a detailed email to <strong>pujariji@gmail.com</strong></li>
-                <li>Include: full name, device type, app version, request type, and reason</li>
-                <li>We will verify your identity and respond within 30 days (GDPR/CCPA standard)</li>
-            </ul>
-
-            <h3>11.3 Complaints</h3>
-            <p>If you believe your privacy rights have been violated:</p>
-            <ol style="margin-left: 20px;">
-                <li>Contact us first at <strong>pujariji@gmail.com</strong></li>
-                <li>EU residents: File a complaint with your national Data Protection Authority</li>
-                <li>California residents: File a complaint with the California Attorney General</li>
-                <li>All users: You may also contact Google Play or Apple App Store support</li>
-            </ol>
-        </section>
-
-        <!-- Section 12: Summary -->
-        <section class="section" id="summary">
-            <h2>12. Privacy Summary</h2>
-            <div class="card success">
-                <ul style="list-style: none; margin-left: 0;">
-                    <li style="margin-bottom: 12px;">✅ <strong>Your data stays on your device</strong> — Never uploaded to servers</li>
-                    <li style="margin-bottom: 12px;">✅ <strong>You control what's collected</strong> — Mood tracking and notes are optional</li>
-                    <li style="margin-bottom: 12px;">✅ <strong>Delete anytime</strong> — Clear all data instantly from Settings</li>
-                    <li style="margin-bottom: 12px;">✅ <strong>No ads • No tracking • No analytics</strong> — 100% privacy-focused</li>
-                    <li style="margin-bottom: 12px;">✅ <strong>Transparent processing</strong> — Data used only for stated purposes</li>
-                    <li style="margin-bottom: 12px;">✅ <strong>Your rights protected</strong> — GDPR, CCPA, and global privacy standards</li>
-                    <li style="margin-bottom: 0;">✅ <strong>Offline by design</strong> — Works fully without internet connection</li>
-                </ul>
+                <h4>✉️ Email Support</h4>
+                <a href="mailto:manishpujari07@gmail.com">manishpujari07@gmail.com</a>
+                <p class="note">We aim to respond within 3–7 business days.</p>
             </div>
         </section>
 
@@ -888,47 +374,25 @@
         <footer class="footer">
             <p><strong>© 2026 Sarvesh Chandra Pujari</strong> • DeepFlow</p>
             <p>Privacy Policy • Last Updated: March 2026 • Version 1.2.10+29</p>
-            <p style="margin-top: 12px; opacity: 0.7;">This policy applies to all platforms: Android, iOS, and Web</p>
+            <p style="margin-top: 8px; opacity: 0.7;">This policy applies to all platforms: Android, iOS, and Web</p>
         </footer>
     </div>
 
-    <!-- Scroll to Top Button -->
+    <!-- Scroll to Top -->
     <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">↑</button>
 
     <script>
-        // Smooth scrolling for TOC links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
-        });
-
         // Scroll to top button
         const scrollToTopBtn = document.getElementById('scrollToTop');
-        
         window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 400) {
+            if (window.pageYOffset > 300) {
                 scrollToTopBtn.classList.add('visible');
             } else {
                 scrollToTopBtn.classList.remove('visible');
             }
         });
-
         scrollToTopBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Keyboard shortcut for print
-        document.addEventListener('keydown', (e) => {
-            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
-                setTimeout(() => {
-                    // Allow default print to proceed
-                }, 100);
-            }
         });
     </script>
 </body>
